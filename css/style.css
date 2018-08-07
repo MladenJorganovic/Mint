@@ -274,7 +274,49 @@ footer a:hover{
 }
 
 
+.poseti{
+    display: block;
+    padding: 27px 487px 24px 43px;
+}
 
 
+.strelica{
+    display: block;
+    padding: 37px 456px 35px 336px;
+}
 
 
+.flasice{
+    display: block;
+   padding: 22px 10px 0px 400px;
+}
+
+.search{
+    background: transparent;
+    border: 1px solid transparent;
+    border-bottom: 2px solid #3BADE2;
+    color: blue;
+}
+
+.search::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+   color: #3BADE2;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #3BADE2;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #3BADE2;
+}
+
+.nav-item{
+    margin-right: 82px;
+}
+
+
+.searc-icon{
+    left: 230px;
+    color: #3BADE2;
+}
